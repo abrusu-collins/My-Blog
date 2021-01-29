@@ -108,7 +108,7 @@ background-color:#fcfeff ;
   transform: translateY(-8.5px) rotate(-45deg);
 }
 .nav.open {
-  height: 100vh;
+  height: 50vh;
 }
 
 @media (max-width: 767px) {
