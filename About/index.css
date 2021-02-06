@@ -142,7 +142,9 @@ background-color:#fcfeff ;
 }
 /*end of navbar*/
 
-
+.pic span{
+  font-weight:800;
+}
 .c{
 background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(135deg, rgb(165, 230, 235),rgb(29, 32, 232));
 	height:40vh;
