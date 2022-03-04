@@ -207,41 +207,16 @@ width:100%;
 
 
 /*Media Queries*/
+@media(max-width:680px){
 
-@media(max-width: 1166px){
   .pic{
-    width:40%;
+    flex-direction: column;
   }
 }
 
-@media(max-width: 814px){
-  .pic{
-    width:50%;
-  }
-}
+@media(max-width:466px){
 
-
-@media(max-width: 593px){
-  .pic{
-    width:60%;
-  }
-}
-
-@media(max-width: 471px){
-  .pic{
-    width:70%;
-  }
-}
-
-
-@media(max-width: 415px){
-  .pic{
-    width:80%;
-  }
-}
-
-@media(max-width: 354px){
-  .pic{
-    width:90%;
+  .img{
+height:250px;
   }
 }
