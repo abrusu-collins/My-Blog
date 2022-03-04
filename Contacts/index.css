@@ -128,7 +128,7 @@ background-color:#fcfeff ;
 
 .c{
 background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(135deg, rgb(165, 230, 235),rgb(29, 32, 232));
-	height:40vh;
+	height:20vh;
  margin-top: 60px;
 padding-bottom: 30px;
 display: flex;
@@ -171,7 +171,7 @@ color: white;
   border-radius: 5px;
   display: inline-grid;
   text-decoration: none;
-  color:#000000;
+  color:#fff;
 }
 .socials a:hover,.Phone a:hover,.Email a:hover{
   background-color:#54aeff; 
