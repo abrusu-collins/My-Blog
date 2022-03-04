@@ -192,7 +192,8 @@ border-radius: 5px;
   color:inherit;
 }
 .top{
-  list-style: cjk-heavenly-stem;
+  list-style: none;
+  font-size: 20px;
 
   
 }
