@@ -248,9 +248,7 @@ width:100%;
   .tops{
     width:50%;
   }
-  .c{
-    height:50vh;
-  }
+  
 }
 
 
@@ -286,7 +284,7 @@ width:100%;
   .tops{
     width:75%;
      flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .tops ul{
     margin-bottom: 20px;
