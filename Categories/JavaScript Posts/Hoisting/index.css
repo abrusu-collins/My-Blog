@@ -188,6 +188,17 @@ padding:0 10px;
 /* 
 .exp{
   font-family: 'Poppins', sans-serif;} */
+  .writeup a{
+    background-color: #f05f70;
+    color:var(--light) !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display:inline-block;
+    margin: 0 auto 8px auto;
+    align-items: center;
+    justify-content: center;
+  }
 .tops{
 width:40%;
 padding: 60px 40px ;
