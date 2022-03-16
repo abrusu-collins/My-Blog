@@ -86,12 +86,17 @@ ss
 	</p>
 	<p>The output when you use let and const is ReferenceError: Cannot access 'name' before initialization.</p>
 		<h3>Why this output?</h3>
-		<p>The reason is that, when the JavaScript interpreter encounters a scope, it hoists the variable to the top, for var: the variables are initialized to “undefined”.</p>
+		<p>The reason is that, when the JavaScript interpreter encounters a scope, it hoists the variable to the top.</p>
+		<p> for var: the variables are initialized to “undefined”.</p>
 		<p>Below is how the interpreter views it.</p>
 
 		<img src="carbon (17).png" alt="code image">
 
 		<p>For let and const, the interpreter hoists them and leaves them uninitialized.</p>
+       <p>Below is how the interpreter sees it</p>
+		<img src="carbon (15).png" alt="code image">
+		<img src="carbon (16).png" alt="code image">
+		<p>I hope you now understand variable hoisting. Onto the next one.</p>
 
 	</div>
 
