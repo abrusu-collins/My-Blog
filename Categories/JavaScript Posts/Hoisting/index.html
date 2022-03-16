@@ -100,14 +100,45 @@ ss
 
 	</div>
 
-	<h3>Using the arguments object to write a function that can take any number of arguments.</h3>
+	<h3>Function Hoisting</h3>
 	<div class="exp">
-		<img src="carbon (8).png" alt="code image">
+		<img src="carbon (19).png" alt="code image">
 
-		<p>The code sample above will add all the arguments and log the sum to the console.</p>
-	<p>So the outputs will be 0, 3 and 18</p>
+	<p>You may think the code above won't work but it will work because of hoisting.
+		Functions can be called before they are declared, thanks to hoisting.
+		</p>
+		<p>This is how it looks after the interpreter hoists it.</p>
+		<img src="carbon (18).png" alt="code image">
+
+	</div>
+<h3>Function expression hoisting</h3>
+	<div class="exp">
+		<h3>What are function expressions?</h3>
+		<p>They are function stored in a variable.</p>
+		<p>See code below.</p>
+		<img src="carbon (20).png" alt="code image">
+		<p>Function expressions are not hoisted.
+			Since function expressions are functions stored in a variable, the variable declaration is hoisted but the function can’t be accessed before initialization.
+			If the expression is declared using var, it is initialized to undefined
+			If you use const or let, it is not initialized.
+			</p>
+
+		
 	
 	</div>
+<h3>Class Hoisting</h3>
+	<div class="exp">
+		<p>Just like let and const, Classes are hoisted but they are not initialized.
+			So any line of code that uses the class before the initialization results in a Reference Error.
+			</p>
+	</div>
+<h3>Class expression hoisting</h3>
+	<div class="exp">
+<p>Same explanation as function expression hoisting</p>
+	
+	</div>
+
+	
 
 
 </div>
