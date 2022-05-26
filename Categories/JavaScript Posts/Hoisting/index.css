@@ -286,7 +286,13 @@ width:100%;
   box-shadow: 0 1px 5px rgba(104,104,104,0.8);
 }
 
-
+#ans{
+  margin-left: 20px;
+  font-weight: bold;
+}
+._22,._23,._21,._24{
+  display:none;
+}
 /*media QUeries*/
 @media(max-width:1000px ){
 .posts{
