@@ -58,6 +58,15 @@
     animation-duration: 2s;
     animation-iteration-count: infinite
 }
+.posts{
+    margin: 150px 0;
+    text-align: center;
+}
+.recent{
+    font-size: 50px;
+    color: var(--orange);
+    font-family: InterBold;
+}
 @keyframes bounce {
     0% {
         transform: translateY(0);
