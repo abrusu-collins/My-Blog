@@ -1,0 +1,74 @@
+:root {
+  --orange: #ff7500;
+  --white: #fcfeff;
+  --black: #000000;
+}
+@font-face {
+    font-family: InterBold;
+    src: url("./fonts/Inter-Bold.ttf");
+}
+@font-face {
+    font-family: InterRegular;
+    src: url("./fonts/Inter-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: InterRegular;
+  line-height: 22px;
+}
+.hero {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  margin: 130px auto;
+  align-items: center;
+  text-align: left;
+}
+.hero img {
+  width: 100%;
+}
+.hero .text-hero {
+    margin: 50px 0;
+}
+.hero .pro {
+  font-size: 50px;
+  color: var(--orange);
+  font-family: InterBold;
+
+}
+.hero a{
+    text-decoration: none;
+    background-color: var(--orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.arrow{
+    text-align: center;
+}
+.arrow i{
+    color: var(--orange);
+    animation-name: bounce;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
