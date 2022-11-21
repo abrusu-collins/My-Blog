@@ -78,6 +78,9 @@ body{
     padding: 30px;
     border-radius: 20px;
 }
+.posts a{
+    text-decoration: none;
+}
 .post-title{
     font-size: 30px;
     color: var(--orange);
