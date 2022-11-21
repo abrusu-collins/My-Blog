@@ -58,14 +58,18 @@
     animation-duration: 2s;
     animation-iteration-count: infinite
 }
-.posts{
-    margin: 150px 0;
-    text-align: center;
-}
+
 .recent{
     font-size: 50px;
     color: var(--orange);
     font-family: InterBold;
+    text-align: center;
+    margin-top: 150px;
+}
+.posts{
+}
+.the-posts{
+    text-align: left;
 }
 @keyframes bounce {
     0% {
