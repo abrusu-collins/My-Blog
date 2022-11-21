@@ -15,10 +15,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--black);
   color: var(--white);
   font-family: InterRegular;
   line-height: 22px;
+}
+body{
+    background-color: var(--black);
 }
 .hero {
   width: 70%;
@@ -67,6 +69,33 @@
     margin-top: 150px;
 }
 .posts{
+    width: 70%;
+    margin: auto;
+}
+.the-posts{
+    background-color: hsla(0,0%,5%,.78);
+    margin:45px 0;
+    padding: 30px;
+    border-radius: 20px;
+}
+.post-title{
+    font-size: 30px;
+    color: var(--orange);
+    font-family: InterBold;
+}
+.post-text{
+    margin: 20px 0;
+}
+.about-post{
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: var(--orange);
+    margin: 0 20px;
+}
+.posts img{
+width: 4%;
 }
 .the-posts{
     text-align: left;
