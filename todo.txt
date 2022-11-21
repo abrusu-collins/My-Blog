@@ -1,0 +1,10 @@
+responsive landing
+write first 3 articles
+translate into web
+do their responsiveness
+do same for last
+
+draft.dev app
+
+
+REACT + DSA time
