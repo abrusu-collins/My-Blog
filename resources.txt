@@ -20,6 +20,10 @@ HTML
 https://learnhtmlcss.online/
 https://www.w3schools.com/html/default.asp
 https://www.udacity.com/course/intro-to-html-and-css--ud001
+https://www.youtube.com/watch?v=kUMe1FH4CHE
+https://www.youtube.com/watch?v=mU6anWqZJcc
+https://www.youtube.com/watch?v=G3e-cpL7ofc
+https://www.youtube.com/watch?v=a_iQb1lnAEQ
 CSS
 https://learnhtmlcss.online/
 http://web.dev/learn/css
@@ -63,10 +67,22 @@ https://www.udemy.com/course/complete-react-developer-zero-to-mastery/
 
 
 JS FOR BACKEND
-NODE
+NODE & EXPRESS
 https://nodejsera.com/30-days-of-node.html
 https://www.w3schools.com/nodejs/default.asp
-EXPRESS
+https://www.tutorialspoint.com/expressjs/index.htm
+https://www.javatpoint.com/expressjs-tutorial
+https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
+https://www.youtube.com/watch?v=Oe421EPjeBE
+https://www.youtube.com/watch?v=f2EqECiTBL8&t=7s
+https://www.youtube.com/watch?v=nu_pCVPKzTk
+https://www.youtube.com/watch?v=JnvKXcSI7yk
+
 MONGODB
 https://www.w3schools.com/mongodb/index.php
 https://university.mongodb.com/courses/M001/about
+https://www.youtube.com/watch?v=lBBtq3Oawqw
+https://www.youtube.com/watch?v=ZiqjKi7nSQk
+https://www.youtube.com/watch?v=Www6cTUymCY
+https://www.youtube.com/watch?v=GFaKsrfQkAc
