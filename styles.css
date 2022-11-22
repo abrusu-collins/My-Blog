@@ -143,10 +143,16 @@ body {
 }
 
 @media screen and (max-width: 501px) {
-.hero .pro, .recent{
+  .hero .pro,
+  .recent {
     font-size: 35px;
-}
-.post-title {
+  }
+  .post-title {
     font-size: 20px;
+  }
 }
+@media screen and (max-width: 381px) {
+  .name {
+    margin: 0 5px;
+  }
 }
