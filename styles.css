@@ -141,3 +141,12 @@ body {
     width: 10%;
   }
 }
+
+@media screen and (max-width: 501px) {
+.hero .pro, .recent{
+    font-size: 35px;
+}
+.post-title {
+    font-size: 20px;
+}
+}
