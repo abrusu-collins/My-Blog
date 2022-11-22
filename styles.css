@@ -4,12 +4,12 @@
   --black: #000000;
 }
 @font-face {
-    font-family: InterBold;
-    src: url("./fonts/Inter-Bold.ttf");
+  font-family: InterBold;
+  src: url("./fonts/Inter-Bold.ttf");
 }
 @font-face {
-    font-family: InterRegular;
-    src: url("./fonts/Inter-Regular.ttf");
+  font-family: InterRegular;
+  src: url("./fonts/Inter-Regular.ttf");
 }
 * {
   padding: 0;
@@ -18,8 +18,8 @@
   color: var(--white);
   font-family: InterRegular;
 }
-body{
-    background-color: var(--black);
+body {
+  background-color: var(--black);
 }
 .hero {
   width: 70%;
@@ -34,88 +34,110 @@ body{
   width: 100%;
 }
 .hero .text-hero {
-    margin: 50px 0;
-    line-height: 22px;
+  margin: 50px 0;
+  line-height: 22px;
 }
 .hero .pro {
   font-size: 50px;
   color: var(--orange);
   font-family: InterBold;
+}
+.hero a {
+  text-decoration: none;
+  background-color: var(--orange);
+  padding: 10px 40px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.arrow {
+  text-align: center;
+}
+.arrow i {
+  color: var(--orange);
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
 
+.recent {
+  font-size: 50px;
+  color: var(--orange);
+  font-family: InterBold;
+  text-align: center;
+  margin-top: 150px;
 }
-.hero a{
-    text-decoration: none;
-    background-color: var(--orange);
-    padding: 10px 40px;
-    border-radius: 5px;
-    display: inline-block;
+.posts {
+  width: 70%;
+  margin: auto;
 }
-.arrow{
-    text-align: center;
+.the-posts {
+  background-color: hsla(0, 0%, 5%, 0.78);
+  margin: 70px 0;
+  padding: 30px;
+  border-radius: 20px;
 }
-.arrow i{
-    color: var(--orange);
-    animation-name: bounce;
-    animation-timing-function: ease;
-    animation-duration: 2s;
-    animation-iteration-count: infinite
+.posts a {
+  text-decoration: none;
 }
-
-.recent{
-    font-size: 50px;
-    color: var(--orange);
-    font-family: InterBold;
-    text-align: center;
-    margin-top: 150px;
+.post-title {
+  font-size: 30px;
+  color: var(--orange);
+  font-family: InterBold;
 }
-.posts{
-    width: 70%;
-    margin: auto;
+.post-text {
+  margin: 20px 0;
 }
-.the-posts{
-    background-color: hsla(0,0%,5%,.78);
-    margin:70px 0;
-    padding: 30px;
-    border-radius: 20px;
+.about-post {
+  display: flex;
+  align-items: center;
 }
-.posts a{
-    text-decoration: none;
+.name {
+  color: var(--orange);
+  margin: 0 20px;
 }
-.post-title{
-    font-size: 30px;
-    color: var(--orange);
-    font-family: InterBold;
+.posts img {
+  width: 4%;
 }
-.post-text{
-    margin: 20px 0;
-}
-.about-post{
-    display: flex;
-    align-items: center;
-}
-.name{
-    color: var(--orange);
-    margin: 0 20px;
-}
-.posts img{
-width: 4%;
-}
-.the-posts{
-    text-align: left;
+.the-posts {
+  text-align: left;
 }
 @keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
-    30% {
-        transform: translateY(-10px);
-    }
-    50% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* media queries*/
+@media screen and (max-width: 1101px) {
+  .hero,
+  .posts {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 881px) {
+  .hero img {
+    display: none;
+  }
+  .hero {
+    display: block;
+    text-align: center;
+  }
+  .posts {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 551px) {
+  .posts img {
+    width: 10%;
+  }
+}
