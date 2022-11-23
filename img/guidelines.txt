@@ -1,0 +1,66 @@
+If you are reading this post, then you are probably
+ trying to transition into tech or you are a junior developer.
+ Even if you are a developer who has some years under your belt, this article
+ can be of help in some parts of your website development journey.
+
+ In this article, I will outline a roadmap/guideline that will take you from being
+ a beginner to landing your first job as a developer.
+
+ I have a simple roadmap called LMAP(Learn.Build.Apply.Prepare).
+ First you learn the necessary technologies and concepts needed.
+ You then build projects, resume, github and linkedin profile.
+ After these steps, you can start applying for jobs.
+ As you are applying, you have to start preparing for interviews by learning Data Structures and
+ algorithms.
+
+ Now let me expand on each of the  steps.
+
+ LEARN 
+ front end 
+ back end
+
+
+
+ BUILD
+ projects
+ After learning  the necessary technologies, you have to demonstrate to prospective employers
+ that you really know the technologies and you an put them to use. The only way to do that
+ is by building projects.
+ ANother reason why projects are important is because, you have little or no experience so the 
+ only way to access your skills is through your projects.
+
+ linkedin profile
+ 
+ 
+ 
+ resume
+
+
+
+ APPLY 
+After building your projects and online presence , you have to start applying for jobs instantly.
+the following is a  list of some webstes where you can find jobs.
+
+Indeed 
+glassdoor
+dice
+angellist
+remotive
+remoteok
+linkedin
+google for jobs
+flexjobs
+weworkremotely
+
+
+ PREPARE
+ This stage is where you have to prepare to ace that interview and finally land your job.
+ There are a lot of platforms that helps you with this, the most popular ones are listed below.
+
+Leetcode
+Hacherrank
+ Coewars
+ Codechef
+ Coderbyte
+ AlgoExpert
+ codeforces
