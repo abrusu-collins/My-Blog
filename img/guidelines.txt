@@ -8,7 +8,7 @@ If you are reading this post, then you are probably
 
  I have a simple roadmap called LMAP(Learn.Build.Apply.Prepare).
  First you learn the necessary technologies and concepts needed.
- You then build projects, resume, github and linkedin profile.
+ You then build projects, resume and linkedin profile.
  After these steps, you can start applying for jobs.
  As you are applying, you have to start preparing for interviews by learning Data Structures and
  algorithms.
@@ -17,8 +17,16 @@ If you are reading this post, then you are probably
 
  LEARN 
  front end 
+ The process of creating HTML, CSS, and JavaScript for a website or Web application so 
+ that a user can see and interact with them directly is known as front-end web development,
+sometimes known as client-side development.
+ Technologies to learn : HTML, CSS, JS, a frmawork(React, Vue, Angular or svelte).
  back end
-
+Back-end Development refers to server-side programming. Scripting, databases, and website 
+architecture are the main topics. It includes background processes that take place when a 
+user makes any activity on a website.
+ Technologies to learn :One Backend language(Node, PHP, Python,Ruby,Java, Go or others)
+ DB(Mongodb, mysql,postgres and others)
 
 
  BUILD
