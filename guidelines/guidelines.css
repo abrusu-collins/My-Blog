@@ -45,7 +45,7 @@
   span{
     color: var(--orange);
   }
-  ._1, ._2, ._3, ._4, ._5, ._6, ._7, ._8, ._9, ._10, ._11, ._12, ._13 {
+  ._1, ._2, ._3, ._4, ._5, ._6, ._7, ._8, ._9, ._10, ._11, ._12, ._13, ._14 {
     margin-bottom: 20px;
     line-height: 30px;
   }
@@ -54,7 +54,7 @@
     line-height: 30px;
 
   }
-  .learn-title, .build-title, .apply-title{
+  .learn-title, .build-title, .apply-title, .prepare-title{
     font-size: 50px;
     color: var(--orange);
     margin: 50px 0;
