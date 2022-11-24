@@ -45,9 +45,12 @@
   span{
     color: var(--orange);
   }
-  ._1, ._2, ._3, ._4, ._5, ._6, ._7, ._8, ._9, ._10, ._11{
+  ._1, ._2, ._3, ._4, ._5, ._6, ._7, ._8, ._9, ._10, ._11, ul{
     margin-bottom: 20px;
     line-height: 30px;
+  }
+  ul{
+    margin: 0 0 20px 20px;
   }
   .learn-title, .build-title{
     font-size: 50px;
