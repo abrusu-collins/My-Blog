@@ -1,0 +1,44 @@
+:root {
+    --orange: #ff7500;
+    --white: #fcfeff;
+    --black: #000000;
+  }
+  @font-face {
+    font-family: InterBold;
+    src: url("../fonts/Inter-Bold.ttf");
+  }
+  @font-face {
+    font-family: InterRegular;
+    src: url("../fonts/Inter-Regular.ttf");
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: InterRegular;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--black);
+  }
+  .hero{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/css.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 70vh;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero p{
+    font-family: InterBold;
+    font-size: 50px;
+    color: var(--orange);
+  }
+
+  .article{
+    width: 50%;
+    margin: 100px auto;
+  }

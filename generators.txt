@@ -1,4 +1,5 @@
 Being a developer doesnt mean you should know everything.
+One of the important skills to have as a developer is the ability tou figure things out.
 
 
 CSS GENERATORS
