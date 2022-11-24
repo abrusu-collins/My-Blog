@@ -15,6 +15,25 @@ iv. building web servers
 In this article I will be sharing with you a lot of resorces that will help you with
 web development with javascript.
 
+
+
+
+
+
+
+
+
+websites 
+github repos
+youtuve videos
+
+
+
+
+
+
+
+
 JS FOR FRONTEND
 HTML
 https://learnhtmlcss.online/

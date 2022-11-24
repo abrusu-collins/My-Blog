@@ -1,0 +1,56 @@
+:root {
+    --orange: #ff7500;
+    --white: #fcfeff;
+    --black: #000000;
+  }
+  @font-face {
+    font-family: InterBold;
+    src: url("../fonts/Inter-Bold.ttf");
+  }
+  @font-face {
+    font-family: InterRegular;
+    src: url("../fonts/Inter-Regular.ttf");
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: InterRegular;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--black);
+  }
+  .hero{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/resources.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero p{
+    font-family: InterBold;
+    font-size: 50px;
+    color: var(--orange);
+  }
+
+  .article{
+    width: 50%;
+    margin: 100px auto;
+  }
+  span{
+    color: var(--orange);
+  }
+  ._1, ._2, ._3, ._4, ._5, ._6, ._7, ._8, ._9, ._10, ._11, ._12, ._13, ._14 {
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  ul{
+    margin: 0 0 20px 20px;
+    line-height: 30px;
+
+  }
