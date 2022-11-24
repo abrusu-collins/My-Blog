@@ -60,7 +60,7 @@
     color: var(--orange);
     margin: 50px 0;
   }
-  .html-title, .css-title, .js-title{
+  .html-title, .css-title, .js-title, .react-title{
     font-size: 30px;
     color: var(--orange);
     margin-bottom: 20px;
