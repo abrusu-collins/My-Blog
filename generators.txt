@@ -1,5 +1,10 @@
 Being a developer doesnt mean you should know everything.
 One of the important skills to have as a developer is the ability tou figure things out.
+In fact, if you don't know how to google and find answers to problems and bugs you face then
+you will find it hard in the tech world.
+
+In this article, I compiled a lot of css generators that will generate complex css codes for you.
+
 
 
 CSS GENERATORS
@@ -10,7 +15,8 @@ CSS GENERATORS
 
 
 
-color palletes
+color pallete generators
+
 https://stripesgenerator.com/
 https://colors.eva.design/
 http://khroma.co/
@@ -37,7 +43,7 @@ gradient generators
 https://cssgradient.io/
 https://www.colorzilla.com/gradient-editor/
 https://larsenwork.com/easing-gradients/
-https://css-scroll-shadows.vercel.app/?bgColor=e8ea64&shadowColor=222222&pxSize=15
+https://css-scroll-shadows.vercel.app/
 https://www.css-gradient.com/
 https://uigradients.com/
 https://meshgradient.com/
@@ -56,7 +62,7 @@ https://the-echoplex.net/flexyboxes/
 
 shadow generators
 https://shadows.brumm.af/
-
+https://box-shadow.dev/
 
 svg background generators
 https://heropatterns.com/
