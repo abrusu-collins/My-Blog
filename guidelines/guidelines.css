@@ -1,0 +1,24 @@
+:root {
+    --orange: #ff7500;
+    --white: #fcfeff;
+    --black: #000000;
+  }
+  @font-face {
+    font-family: InterBold;
+    src: url("./fonts/Inter-Bold.ttf");
+  }
+  @font-face {
+    font-family: InterRegular;
+    src: url("./fonts/Inter-Regular.ttf");
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: InterRegular;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--black);
+  }

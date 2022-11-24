@@ -28,6 +28,7 @@ user makes any activity on a website.
  Technologies to learn :One Backend language(Node, PHP, Python,Ruby,Java, Go or others)
  DB(Mongodb, mysql,postgres and others)
 
+If you want resources to help you in your learning journey Clicke here
 
  BUILD
  projects
