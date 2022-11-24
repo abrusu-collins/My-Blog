@@ -7,11 +7,16 @@ https://www.tutorialspoint.com/expressjs/index.htm
 https://www.javatpoint.com/expressjs-tutorial
 https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
+
+
 https://github.com/goldbergyoni/nodebestpractices
 https://github.com/sindresorhus/awesome-nodejs
 https://github.com/sqreen/awesome-nodejs-projects
 https://github.com/hagopj13/node-express-boilerplate
 https://github.com/AlaaMezian/NodeJs-backend-structure
+
+
+
 https://www.youtube.com/watch?v=Oe421EPjeBE
 https://www.youtube.com/watch?v=f2EqECiTBL8&t=7s
 https://www.youtube.com/watch?v=nu_pCVPKzTk
@@ -20,6 +25,9 @@ https://www.youtube.com/watch?v=JnvKXcSI7yk
 MONGODB
 https://www.w3schools.com/mongodb/index.php
 https://university.mongodb.com/courses/M001/about
+
+
+
 https://www.youtube.com/watch?v=lBBtq3Oawqw
 https://www.youtube.com/watch?v=ZiqjKi7nSQk
 https://www.youtube.com/watch?v=Www6cTUymCY
