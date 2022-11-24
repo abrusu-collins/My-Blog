@@ -60,8 +60,13 @@
     color: var(--orange);
     margin: 50px 0;
   }
-  .html-title{
+  .html-title, .css-title, .js-title{
     font-size: 30px;
+    color: var(--orange);
+    margin-bottom: 20px;
+  }
+  .website, .youtube, .repo{
+    font-size: 20px;
     color: var(--orange);
     margin-bottom: 20px;
   }

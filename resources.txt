@@ -68,17 +68,20 @@ https://www.youtube.com/watch?v=QBfblbmTTF4
 
 JAVASCRIPT, THE PROGRAMMING LANGUAGE
 https://learnjavascript.online/
-http://javascript .info
+http://javascript.info
+https://www.w3schools.com/js/default.asp
+https://exercism.org/tracks/javascript
+https://www.udacity.com/course/javascript-and-the-dom--ud117
+https://scrimba.com/learn/learnjavascript
+
 https://www.youtube.com/watch?v=PkZNo7MFNFg
 https://www.youtube.com/watch?v=W6NZfCO5SIk
 https://www.youtube.com/watch?v=jS4aFq5-91M
 https://www.youtube.com/watch?v=hdI2bqOjy3c
-https://www.w3schools.com/js/default.asp
+
 https://github.com/trekhleb/javascript-algorithms
 https://github.com/ryanmcdermott/clean-code-javascript
-https://exercism.org/tracks/javascript
-https://www.udacity.com/course/javascript-and-the-dom--ud117
-https://scrimba.com/learn/learnjavascript
+
 REACT
  http://react-tutorial.app
 https://github.com/enaqx/awesome-react
