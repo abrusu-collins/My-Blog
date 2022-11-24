@@ -1,73 +1,8 @@
-Being a developer doesnt mean you should know everything.
-One of the important skills to have as a developer is the ability tou figure things out.
-In fact, if you don't know how to google and find answers to problems and bugs you face then
-you will find it hard in the tech world.
-
-In this article, I compiled a lot of css generators that will generate complex css codes for you.
+blob maker
+https://passionhacks.com/blob-maker/?n=1&e=6&gw=6&se=null&c=d1d8e0&o=0
+https://www.blobmaker.app/?ref=producthunt
 
 
-
-CSS GENERATORS
-
-
-
-
-
-
-
-color pallete generators
-
-https://stripesgenerator.com/
-https://colors.eva.design/
-http://khroma.co/
-https://clrs.cc/
-https://www.webfx.com/web-design/color-picker/
-https://encycolorpedia.com/
-https://htmlcolorcodes.com/
-https://coolors.co/
-https://calcolor.co/
-https://www.flatuicolorpicker.com/
-https://flatuicolors.com/
-http://bootflat.github.io/color-picker.html
-http://brandcolors.net/
-https://color.adobe.com/create/color-wheel
-https://www.materialpalette.com/
-http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
-https://theme.numl.design/
-
-
-
-
-
-gradient generators
-https://cssgradient.io/
-https://www.colorzilla.com/gradient-editor/
-https://larsenwork.com/easing-gradients/
-https://css-scroll-shadows.vercel.app/
-https://www.css-gradient.com/
-https://uigradients.com/
-https://meshgradient.com/
-https://www.gradient-animator.com/
-
-grid/flex generators
-https://cssgrid-generator.netlify.app/
-https://www.quackit.com/html/templates/css_grid_templates.cfm
-https://www.mycssbuilder.com/
-https://flexbox.buildwithreact.com/
-https://griddy.io/
-https://grid.layoutit.com/
-https://the-echoplex.net/flexyboxes/
-
-
-
-shadow generators
-https://shadows.brumm.af/
-https://box-shadow.dev/
-
-svg background generators
-https://heropatterns.com/
-https://www.svgbackgrounds.com/
-https://haikei.app/
 
 
 others
@@ -75,24 +10,25 @@ https://getwaves.io/
 https://hype4.academy/tools/glassmorphism-generator
 https://9elements.github.io/fancy-border-radius/
 https://neumorphism.io/#e0e0e0
-https://www.blobmaker.app/?ref=producthunt
 http://tridiv.com/
 https://lib.vizzuhq.com/0.3.0/#examples-1.1
 https://mojs.github.io/
 https://particles.js.org/
-https://csslayout.io/
 https://loading.io/
-https://enjoycss.com/
-https://www.cssmatic.com/
-https://cssgenerator.org/
-https://webcode.tools/generators/css
 https://cubic-bezier.com/#.17,.67,.83,.67
 http://www.patternify.com/
-https://html-css-js.com/css/generator/text-shadow/
 https://bennettfeely.com/clippy/
 https://accordionslider.com/
 https://responsively.app/
-https://passionhacks.com/blob-maker/?n=1&e=6&gw=6&se=null&c=d1d8e0&o=0
 https://keyframes.app/
 https://imageslidermaker.com/v2
+
+
+COLLECTIONS
 https://uiverse.io/all
+https://html-css-js.com/css/generator/text-shadow/
+https://webcode.tools/generators/css
+https://enjoycss.com/
+https://www.cssmatic.com/
+https://cssgenerator.org/
+https://csslayout.io/
