@@ -7,3 +7,14 @@ let show1 = document.querySelector(".show1");
 let show2 = document.querySelector(".show2");
 let show3 = document.querySelector(".show3");
 let show4 = document.querySelector(".show4");
+// no-display
+show1.addEventListener("click", (e)=>{
+    e.preventDefault();
+    ans1.classList.toggle("no-display");
+    if(ans1.classList.contains("no-display")){
+        show1.textContent="Show Answer";
+    }
+    else{
+        show1.textContent="Hide Answer";
+    }
+})

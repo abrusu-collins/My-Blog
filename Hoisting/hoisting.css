@@ -67,3 +67,6 @@ a{
 .ans1, .ans2, .ans3, .ans4{
     margin-left: 15px;
 }
+.no-display{
+    display: none;
+}
