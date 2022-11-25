@@ -26,6 +26,7 @@
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/guidelines.jpg");
     background-size: cover;
     background-position: bottom;
+    width: 100%;
     height: 70vh;
     min-height: 200px;
     display: flex;
@@ -67,3 +68,31 @@
   a{
     color: var(--orange);
   }
+      /* responsiveness*/
+      @media screen and (max-width:1025px) {
+        .hero p{
+          padding: 40px;
+          text-align: center;
+        }
+        .article{
+          width: 70%;
+        }
+        ul a{
+          word-break: break-all;
+        }
+      }
+      @media screen and (max-width:697px) {
+        .article{
+          width: 80%;
+        }
+      }
+      @media screen and (max-width:426px) {
+        .article{
+          width: 90%;
+        }
+      }
+      @media screen and (max-width:416px) {
+        .hero p{
+         font-size: 35px;
+        }
+      }
