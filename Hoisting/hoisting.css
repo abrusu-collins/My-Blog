@@ -70,3 +70,23 @@ a{
 .no-display{
     display: none;
 }
+  /* responsiveness*/
+  @media screen and (max-width:953px) {
+    .hero p{
+      padding: 40px;
+      text-align: center;
+    }
+    .article{
+      width: 70%;
+    }
+  }
+  @media screen and (max-width:769px) {
+    .article{
+      width: 80%;
+    }
+  }
+  @media screen and (max-width:510px) {
+    .article{
+      width: 90%;
+    }
+  }
