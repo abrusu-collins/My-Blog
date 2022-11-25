@@ -56,6 +56,9 @@
     margin-bottom: 20px;
     line-height: 30px;
   }
+  a:hover{
+    text-decoration: none;
+  }
     /* responsiveness*/
     @media screen and (max-width:769px) {
       .hero p{
