@@ -56,3 +56,21 @@
     margin-bottom: 20px;
     line-height: 30px;
   }
+    /* responsiveness*/
+    @media screen and (max-width:769px) {
+      .hero p{
+        padding: 40px;
+        text-align: center;
+      }
+      .article{
+        width: 70%;
+      }
+      ul a{
+        word-break: break-all;
+      }
+    }
+    @media screen and (max-width:425px) {
+      .article{
+        width: 80%;
+      }
+    }
