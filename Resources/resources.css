@@ -27,6 +27,7 @@
     background-size: cover;
     background-position: bottom;
     height: 70vh;
+    width: 100%;
     min-height: 200px;
     display: flex;
     align-items: center;
@@ -69,4 +70,28 @@
     font-size: 20px;
     color: var(--orange);
     margin-bottom: 20px;
+  }
+  /* responsiveness*/
+  @media screen and (max-width:865px) {
+    .hero p{
+      padding: 40px;
+      text-align: center;
+    }
+    .article{
+      width: 70%;
+    }
+  }
+  @media screen and (max-width:594px) {
+    .article{
+      width: 85%;
+    }
+  }
+  @media screen and (max-width:469px) {
+    .article{
+      width: 90%;
+    }
+
+    ul a{
+      word-break: break-all;
+    }
   }
