@@ -1,0 +1,159 @@
+:root {
+  --orange: #ff7500;
+  --white: #fcfeff;
+  --black: #000000;
+}
+@font-face {
+  font-family: InterBold;
+  src: url("./fonts/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: InterRegular;
+  src: url("./fonts/Inter-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--white);
+  font-family: InterRegular;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--black);
+}
+.hero {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  margin: 130px auto;
+  align-items: center;
+  text-align: left;
+}
+.hero img {
+  width: 100%;
+}
+.hero .text-hero {
+  margin: 50px 0;
+  line-height: 22px;
+}
+.hero .pro {
+  font-size: 50px;
+  color: var(--orange);
+  font-family: InterBold;
+}
+.hero a {
+  text-decoration: none;
+  background-color: var(--orange);
+  padding: 10px 40px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.arrow {
+  text-align: center;
+}
+.arrow i {
+  color: var(--orange);
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.recent {
+  font-size: 50px;
+  color: var(--orange);
+  font-family: InterBold;
+  text-align: center;
+  margin-top: 150px;
+}
+.posts {
+  width: 70%;
+  margin: auto;
+}
+.the-posts {
+  background-color: hsla(0, 0%, 5%, 0.78);
+  margin: 70px 0;
+  padding: 30px;
+  border-radius: 20px;
+}
+.posts a {
+  text-decoration: none;
+}
+.post-title {
+  font-size: 30px;
+  color: var(--orange);
+  font-family: InterBold;
+}
+.post-text {
+  margin: 20px 0;
+}
+.about-post {
+  display: flex;
+  align-items: center;
+}
+.name {
+  color: var(--orange);
+  margin: 0 20px;
+}
+.posts img {
+  width: 4%;
+}
+.the-posts {
+  text-align: left;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* media queries*/
+@media screen and (max-width: 1101px) {
+  .hero,
+  .posts {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 881px) {
+  .hero img {
+    display: none;
+  }
+  .hero {
+    display: block;
+    text-align: center;
+  }
+  .posts {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 551px) {
+  .posts img {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .hero .pro,
+  .recent {
+    font-size: 35px;
+  }
+  .post-title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 381px) {
+  .name {
+    margin: 0 5px;
+  }
+}

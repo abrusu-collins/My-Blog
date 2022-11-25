@@ -1,0 +1,98 @@
+:root {
+    --orange: #ff7500;
+    --white: #fcfeff;
+    --black: #000000;
+  }
+  @font-face {
+    font-family: InterBold;
+    src: url("../fonts/Inter-Bold.ttf");
+  }
+  @font-face {
+    font-family: InterRegular;
+    src: url("../fonts/Inter-Regular.ttf");
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: InterRegular;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--black);
+  }
+  .hero{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/guidelines.jpg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 70vh;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero p{
+    font-family: InterBold;
+    font-size: 50px;
+    color: var(--orange);
+  }
+
+  .article{
+    width: 50%;
+    margin: 100px auto;
+  }
+  span{
+    color: var(--orange);
+  }
+  ._1, ._2, ._3, ._4, ._5, ._6, ._7, ._8, ._9, ._10, ._11, ._12, ._13, ._14 {
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  ul{
+    margin: 0 0 20px 20px;
+    line-height: 30px;
+
+  }
+  .learn-title, .build-title, .apply-title, .prepare-title{
+    font-size: 50px;
+    color: var(--orange);
+    margin: 50px 0;
+  }
+  .frontend-title, .backend-title, .projects-title, .linkedin-title, .resume-title{
+    font-size: 30px;
+    color: var(--orange);
+    margin-bottom: 20px;
+  }
+  a{
+    color: var(--orange);
+  }
+      /* responsiveness*/
+      @media screen and (max-width:1025px) {
+        .hero p{
+          padding: 40px;
+          text-align: center;
+        }
+        .article{
+          width: 70%;
+        }
+        ul a{
+          word-break: break-all;
+        }
+      }
+      @media screen and (max-width:697px) {
+        .article{
+          width: 80%;
+        }
+      }
+      @media screen and (max-width:426px) {
+        .article{
+          width: 90%;
+        }
+      }
+      @media screen and (max-width:416px) {
+        .hero p{
+         font-size: 35px;
+        }
+      }

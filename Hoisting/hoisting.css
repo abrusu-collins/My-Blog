@@ -1,0 +1,72 @@
+:root {
+    --orange: #ff7500;
+    --white: #fcfeff;
+    --black: #000000;
+  }
+  @font-face {
+    font-family: InterBold;
+    src: url("../fonts/Inter-Bold.ttf");
+  }
+  @font-face {
+    font-family: InterRegular;
+    src: url("../fonts/Inter-Regular.ttf");
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: InterRegular;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--black);
+  }
+  .hero{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/hoist.png");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero p{
+    font-family: InterBold;
+    font-size: 50px;
+    color: var(--orange);
+  }
+  .article{
+    width: 50%;
+    margin: 100px auto;
+  }
+  ._1, ._2, ._3, ._4, ._5, ._6, ._7, ._8, ._9, ._10, ._11, ._12, ._13, ._14 {
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  .meaning-title{
+    font-size: 30px;
+    color: var(--orange);
+    margin-bottom: 20px;
+  }
+  img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    background-color: var(--orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 30px 0;
+}
+.ans1, .ans2, .ans3, .ans4{
+    margin-left: 15px;
+}
+.no-display{
+    display: none;
+}
