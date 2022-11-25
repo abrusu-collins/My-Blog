@@ -47,7 +47,70 @@
         <img src="../img/1.png" alt="">
         <img class="middle" src="../img/2.png" alt="">
         <img src="../img/3.png" alt="">
-
+        <p class="_1">
+            The output when you use var is undefined
+            The output when you use let and const is ReferenceError: 
+            Cannot access 'name' before initialization.
+        </p>
+        <p class="meaning-title">
+            Why this output?
+        </p>
+        <p class="_1">
+            The reason is that, when the JavaScript interpreter encounters a scope,
+             it hoists the variable to the top.
+            for var: the variables are initialized to “undefined”.
+            Below is how the interpreter views it.
+        </p>
+        <img src="../img/4.png" alt="">
+        <p class="_1">
+            For let and const, the interpreter hoists them and leaves them uninitialized.
+            Below is how the interpreter sees it
+        </p>
+        <img src="../img/5.png" alt="">
+        <img src="../img/6.png" alt="">
+        <p class="_1">I hope you now understand variable hoisting. Onto the next one.</p>
+        <p class="meaning-title">Function Hoisting</p>
+        <img src="../img/7.png" alt="">
+        <p class="_1">
+            You may think the code above won't work but it will work
+             because of hoisting. Functions can be called before they 
+             are declared, thanks to hoisting.
+            This is how it looks after the interpreter hoists it.
+        </p>
+        <img src="../img/8.png" alt="">
+        <p class="meaning-title">
+            Function expression hoisting
+        </p>
+        <p class="meaning-title">
+            What are function expressions?
+        </p>
+        <p class="_1">
+            They are function stored in a variable.
+            See code below.
+        </p>
+        <img src="../img/9.png" alt="">
+        <p class="_1">
+            Function expressions are not hoisted. Since function expressions
+             are functions stored in a variable, the variable declaration is 
+             hoisted but the function can't be accessed before initialization.
+        </p>
+        <p class="meaning-title">
+            Class Hoisting
+        </p>
+        <p class="_1">
+            Just like let and const, Classes are hoisted but they are not initialized. 
+            So any line of code that uses the class before the initialization results in 
+            a Reference Error.
+        </p>
+        <p class="meaning-title">
+            Class expression hoisting
+        </p>
+        <p class="_1">
+            Same explanation as function expression hoisting
+        </p>
+        <p class="meaning-title">
+            Try these exercises
+        </p>
       </div>
 </body>
 </html>
