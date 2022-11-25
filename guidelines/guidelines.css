@@ -65,8 +65,8 @@
     color: var(--orange);
     margin-bottom: 20px;
   }
-  a{
-    color: var(--orange);
+  a:hover{
+    text-decoration: none;
   }
       /* responsiveness*/
       @media screen and (max-width:1025px) {

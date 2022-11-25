@@ -71,6 +71,9 @@
     color: var(--orange);
     margin-bottom: 20px;
   }
+  a:hover{
+    text-decoration: none;
+  }
   /* responsiveness*/
   @media screen and (max-width:865px) {
     .hero p{
